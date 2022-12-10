@@ -1,0 +1,8 @@
+We will try to store data in the form of 100*1000 matrix(call this storage,error percentage)
+storage[i][j] denotes average response time corresponding to ith API called by jth user
+error percentage[i][j] denotes error percentage of each API(calculated by refreshing total number of failed and accepted requests in an hour)
+function 1:
+iterate through storage to find maximum among all the values and find corr. API
+function 2:
+Iterate through columns and find corresponding max in each row
+function3: error percentage
